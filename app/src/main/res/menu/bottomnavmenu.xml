@@ -3,20 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/artistas"
+        android:icon="@drawable/person"
+        android:title="Artistas"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/recentes"
         android:icon="@drawable/history"
         android:title="Recentes"
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/artistas"
-        android:icon="@drawable/person"
-        android:title="Artistas"
-        app:showAsAction="ifRoom" />
-    <item
         android:id="@+id/albuns"
         android:icon="@drawable/album"
         android:title="Álbuns"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/playlist"
+        android:icon="@drawable/playlist"
+        android:title="Playlist" />
 
 </menu>

@@ -39,5 +39,8 @@
         android:icon="@drawable/close"
         android:title="Encerrar"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/playlist"
+        android:title="Playlists" />
 
 </menu>
